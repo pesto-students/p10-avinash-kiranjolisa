@@ -1,0 +1,1 @@
+A web browser retrieves information from other parts of the web using using Hypertext transfer protocol and renders it onto the screens of desktops or mobile which requested for the respective resource.
