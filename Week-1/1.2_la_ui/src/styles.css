@@ -1,6 +1,21 @@
+:root {
+    --gray: #F0F0F0;
+}
+
 body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
+}
+
+.sidebar--container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    min-height: 400px;
+    height: 100vh;
+    justify-content: space-around;
+    padding: 0 10px;
+    background-color: var(--gray);
 }
