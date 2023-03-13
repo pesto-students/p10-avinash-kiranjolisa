@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cattyboard | Album </title>
+        <meta charset="UTF-8" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css" integrity="sha512-vebUliqxrVkBy3gucMhClmyQP9On/HAWQdKDXRaAlb/FKuTbxkjPKUyqVOxAcGwFDka79eTF+YXwfke1h3/wfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="src/styles.css">
+    </head>
+
+    <body>
+        <div id="app">
+            <section class="content">
+                <aside class="sidebar--container">
+                    <i class="las la-bars"></i>
+                    <i class="las la-home"></i>
+                    <i class="las la-search"></i>
+                    <i class="las la-volume-up"></i>
+                    <i class="las la-user"></i>
+                    <i class="las la-cog"></i>
+                    <i class="lab la-spotify"></i>
+                    <i class="lab la-soundcloud"></i>
+                </aside>
+                <main>
+                    <div class="album-details-container">
+                        <img
+                            src="./src/assets/cattyboard.jpg"
+                            alt="Now playing CattyBoard"
+                            class="album-icon"
+                        />
+                        <section class="album-info">
+                            <div>
+                                <h3>CattyBoard Top 100 Single Charts</h3>
+                                <h6>Unknown Artist</h6>
+                                <h6>2016. Charts. 100 Songs</h6>
+                            </div>
+                            <div class="actions">
+                                <i class="las la-play">Play all</i>
+                                <i class="las la-plus">Add to</i>
+                                <i class="las la-ellipsis-h">Add to</i>
+                            </div>
+                        </section>
+                    </div>
+                    <ul id="next-tracks-list">
+                    </ul>
+                </main>
+            </section>
+            <footer>
+                <div class="current-track-info">
+                    <img
+                        src="./src/assets/cattyboard.jpg"
+                        alt="Now playing CattyBoard"
+                    />
+                    <div>
+                        <p>If it Ain't love</p>
+                        <p>Catson Derulo</p>
+                    </div>
+                </div>
+                <div class="track-action-buttons">
+                    <i class="las la-step-backward"></i>
+                    <i class="las la-pause"></i>
+                    <i class="las la-step-forward"></i>
+                    <i class="las la-undo-alt"></i>
+                    <i class="las la-random"></i>
+                </div>
+            </footer>
+        </div>
+        <script src="src/index.js">
+        </script>
+    </body>
+
+</html>
